@@ -1,0 +1,683 @@
+[{
+        "key": "waybillNumber",
+        "label": "运单号",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "waybillNumber",
+            "waybill_number"
+        ]
+    },
+    {
+        "key": "serviceType",
+        "label": "服务方式",
+        "width": 100,
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "common_service_type"
+            ]
+        },
+        "sortKeys": [
+            "serviceType",
+            "service_type"
+        ]
+    },
+    {
+        "key": "shipingTime",
+        "label": "寄件时间",
+        "width": 100,
+        "show": true,
+        "filter": "time",
+        "sortKeys": [
+            "shipingTime",
+            "shiping_time"
+        ]
+    },
+    {
+        "key": "signingTime",
+        "label": "签收时间",
+        "width": 100,
+        "show": true,
+        "filter": "time",
+        "sortKeys": [
+            "signingTime",
+            "signing_time"
+        ]
+    },
+    {
+        "key": "mainProduct",
+        "label": "托寄物",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "mainProduct",
+            "main_product"
+        ]
+    },
+    {
+        "key": "unitCount",
+        "label": "件数",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "unitCount",
+            "unit_count"
+        ]
+    },
+    {
+        "key": "cubeCount",
+        "label": "方数",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "cubeCount",
+            "cube_count"
+        ]
+    },
+    {
+        "key": "beginWeight",
+        "label": "起重",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "beginWeight",
+            "begin_weight"
+        ]
+    },
+    {
+        "key": "actualWeight",
+        "label": "实际重量",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "actualWeight",
+            "actual_weight"
+        ]
+    },
+    {
+        "key": "freightWeight",
+        "label": "计费重量",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "freightWeight",
+            "freight_weight"
+        ]
+    },
+    {
+        "key": "averagePrice",
+        "label": "均价",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "averagePrice",
+            "average_price"
+        ]
+    },
+    {
+        "key": "freightAmount",
+        "label": "运单运费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "freightAmount",
+            "freight_amount"
+        ]
+    },
+    {
+        "key": "normalFreightAmount",
+        "label": "标准运费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "normalFreightAmount",
+            "normal_freight_amount"
+        ]
+    },
+    {
+        "key": "totalFreightAmount",
+        "label": "总运费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "totalFreightAmount",
+            "total_freight_amount"
+        ]
+    },
+    {
+        "key": "discountFreight",
+        "label": "折后运费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "discountFreight",
+            "discount_freight"
+        ]
+    },
+    {
+        "key": "variableDiscounts",
+        "label": "变量折扣",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "variableDiscounts",
+            "variable_discounts"
+        ]
+    },
+    {
+        "key": "supportOperationCost",
+        "label": "扶后成本",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "supportOperationCost",
+            "support_operation_cost"
+        ]
+    },
+    {
+        "key": "grossProfit",
+        "label": "毛利润",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "grossProfit",
+            "gross_profit"
+        ]
+    },
+    {
+        "key": "grossProfitPercentage",
+        "label": "毛利比率%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "grossProfitPercentage",
+            "gross_profit_percentage"
+        ]
+    },
+    {
+        "key": "pickLineAmount",
+        "label": "取干费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "pickLineAmount",
+            "pick_line_amount"
+        ]
+    },
+    {
+        "key": "pickupAmount",
+        "label": "取货费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "pickupAmount",
+            "pickup_amount"
+        ]
+    },
+    {
+        "key": "flyAmount",
+        "label": "空运费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "flyAmount",
+            "fly_amount"
+        ]
+    },
+    {
+        "key": "deliveryAmount",
+        "label": "派送费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deliveryAmount",
+            "delivery_amount"
+        ]
+    },
+    {
+        "key": "deliveryLineAmount",
+        "label": "派干费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deliveryLineAmount",
+            "delivery_line_amount"
+        ]
+    },
+    {
+        "key": "supportPercentage",
+        "label": "扶持比率%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "supportPercentage",
+            "support_percentage"
+        ]
+    },
+    {
+        "key": "shipingAreaCode",
+        "label": "寄件区号",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "shipingAreaCode",
+            "shiping_area_code"
+        ]
+    },
+    {
+        "key": "receiveAreaCode",
+        "label": "收件区号",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "receiveAreaCode",
+            "receive_area_code"
+        ]
+    },
+    {
+        "key": "shipingCompany",
+        "label": "寄件公司",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "shipingCompany",
+            "shiping_company"
+        ]
+    },
+    {
+        "key": "pickupCompany",
+        "label": "收件公司",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "pickupCompany",
+            "pickup_company"
+        ]
+    },
+    {
+        "key": "deliveryAmountType",
+        "label": "直派费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deliveryAmountType",
+            "delivery_amount_type"
+        ]
+    },
+    {
+        "key": "flowStatus",
+        "label": "流程状况",
+        "width": 100,
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "crm_flow_status"
+            ]
+        },
+        "sortKeys": [
+            "flowStatus",
+            "flow_status"
+        ]
+    },
+    {
+        "key": "marketName",
+        "label": "销售经理",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "marketName",
+            "market_name"
+        ]
+    },
+    {
+        "key": "assistantName",
+        "label": "销售助理",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "assistantName",
+            "assistant_name"
+        ]
+    },
+    {
+        "key": "seniorManagerName",
+        "label": "高级总监",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "seniorManagerName",
+            "senior_manager_name"
+        ]
+    },
+    {
+        "key": "calculationName",
+        "label": "销售总监",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "calculationName",
+            "calculation_name"
+        ]
+    },
+    {
+        "key": "helpName",
+        "label": "协助销售",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "helpName",
+            "help_name"
+        ]
+    },
+    {
+        "key": "reachName",
+        "label": "到达经理",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "reachName",
+            "reach_name"
+        ]
+    },
+    {
+        "key": "driverName",
+        "label": "司机",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "driverName",
+            "driver_name"
+        ]
+    },
+    {
+        "key": "leaveMarketName",
+        "label": "离职经理",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "leaveMarketName",
+            "assistant_leader_name"
+        ]
+    },
+    {
+        "key": "assistantLeaderName",
+        "label": "助理长",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "assistantLeaderName",
+            "leave_market_name"
+        ]
+    },
+    {
+        "key": "shipingRegion",
+        "label": "始发大区",
+        "width": 100,
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "common_region"
+            ]
+        },
+        "sortKeys": [
+            "shipingRegion",
+            "shiping_region"
+        ]
+    },
+    {
+        "key": "receiveRegion",
+        "label": "目的大区",
+        "width": 100,
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "common_region"
+            ]
+        },
+        "sortKeys": [
+            "receiveRegion",
+            "receive_region"
+        ]
+    },
+    {
+        "key": "paymentCustomerShortName",
+        "label": "付款公司",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "paymentCustomerShortName",
+            "payment_customer_short_name"
+        ]
+    },
+    {
+        "key": "companyType",
+        "label": "企业类型",
+        "width": 100,
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "crm_company_type"
+            ]
+        },
+        "sortKeys": [
+            "companyType",
+            "company_type"
+        ]
+    },
+    {
+        "key": "pickupAmountPercent",
+        "label": "取货比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "pickupAmountPercent",
+            "pickup_amount_percent"
+        ]
+    },
+    {
+        "key": "pickLineAmountPercent",
+        "label": "取干比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "pickLineAmountPercent",
+            "pick_line_amount_percent"
+        ]
+    },
+    {
+        "key": "flyAmountPercent",
+        "label": "空运比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "flyAmountPercent",
+            "fly_amount_percent"
+        ]
+    },
+    {
+        "key": "deliveryAmountPercent",
+        "label": "派送比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deliveryAmountPercent",
+            "delivery_amount_percent"
+        ]
+    },
+    {
+        "key": "deliveryLineAmountPercent",
+        "label": "派干比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deliveryLineAmountPercent",
+            "delivery_line_amount_percent"
+        ]
+    },
+    {
+        "key": "deductAmount",
+        "label": "市场预计工资",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deductAmount",
+            "deduct_amount"
+        ]
+    },
+    {
+        "key": "deductAmountPercent",
+        "label": "计提比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deductAmountPercent",
+            "deduct_amount_percent"
+        ]
+    },
+    {
+        "key": "suppliesAmount",
+        "label": "物料费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "suppliesAmount",
+            "supplies_amount"
+        ]
+    },
+    {
+        "key": "suppliesAmountPercent",
+        "label": "物料费比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "suppliesAmountPercent",
+            "supplies_amount_percent"
+        ]
+    },
+    {
+        "key": "insuranceAmount",
+        "label": "保险费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "insuranceAmount",
+            "insurance_amount"
+        ]
+    },
+    {
+        "key": "insurancePercent",
+        "label": "保险费比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "insurancePercent",
+            "insurance_percent"
+        ]
+    },
+    {
+        "key": "expandAmount",
+        "label": "拓展费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "expandAmount",
+            "expand_amount"
+        ]
+    },
+    {
+        "key": "expandAmountPercent",
+        "label": "拓展费比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "expandAmountPercent",
+            "expand_amount_percent"
+        ]
+    },
+    {
+        "key": "perfLaborAmount",
+        "label": "运营工资",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "perfLaborAmount",
+            "perf_labor_amount"
+        ]
+    },
+    {
+        "key": "perfLaborPercent",
+        "label": "运营比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "perfLaborPercent",
+            "perf_labor_percent"
+        ]
+    },
+    {
+        "key": "claimsAmount",
+        "label": "理赔费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "claimsAmount",
+            "claims_amount"
+        ]
+    },
+    {
+        "key": "claimsPercent",
+        "label": "理赔比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "claimsPercent",
+            "claims_percent"
+        ]
+    },
+    {
+        "key": "taxAmount",
+        "label": "税金",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "taxAmount",
+            "tax_amount"
+        ]
+    },
+    {
+        "key": "taxPercent",
+        "label": "税金比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "taxPercent",
+            "tax_percent"
+        ]
+    },
+    {
+        "key": "siteAmount",
+        "label": "场地费",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "siteAmount",
+            "site_amount"
+        ]
+    },
+    {
+        "key": "siteAmountPercent",
+        "label": "场地比%",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "siteAmountPercent",
+            "site_amount_percent"
+        ]
+    }
+]
