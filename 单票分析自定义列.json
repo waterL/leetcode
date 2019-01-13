@@ -473,7 +473,7 @@
     {
         "key": "pickupAmountPercent",
         "label": "取货比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "pickupAmountPercent",
@@ -483,7 +483,7 @@
     {
         "key": "pickLineAmountPercent",
         "label": "取干比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "pickLineAmountPercent",
@@ -493,7 +493,7 @@
     {
         "key": "flyAmountPercent",
         "label": "空运比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "flyAmountPercent",
@@ -503,7 +503,7 @@
     {
         "key": "deliveryAmountPercent",
         "label": "派送比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "deliveryAmountPercent",
@@ -513,7 +513,7 @@
     {
         "key": "deliveryLineAmountPercent",
         "label": "派干比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "deliveryLineAmountPercent",
@@ -523,7 +523,7 @@
     {
         "key": "deductAmount",
         "label": "市场预计工资",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "deductAmount",
@@ -533,7 +533,7 @@
     {
         "key": "deductAmountPercent",
         "label": "计提比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "deductAmountPercent",
@@ -543,7 +543,7 @@
     {
         "key": "suppliesAmount",
         "label": "物料费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "suppliesAmount",
@@ -553,7 +553,7 @@
     {
         "key": "suppliesAmountPercent",
         "label": "物料费比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "suppliesAmountPercent",
@@ -563,7 +563,7 @@
     {
         "key": "insuranceAmount",
         "label": "保险费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "insuranceAmount",
@@ -573,7 +573,7 @@
     {
         "key": "insurancePercent",
         "label": "保险费比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "insurancePercent",
@@ -583,7 +583,7 @@
     {
         "key": "expandAmount",
         "label": "拓展费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "expandAmount",
@@ -593,7 +593,7 @@
     {
         "key": "expandAmountPercent",
         "label": "拓展费比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "expandAmountPercent",
@@ -603,7 +603,7 @@
     {
         "key": "perfLaborAmount",
         "label": "运营工资",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "perfLaborAmount",
@@ -613,7 +613,7 @@
     {
         "key": "perfLaborPercent",
         "label": "运营比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "perfLaborPercent",
@@ -623,7 +623,7 @@
     {
         "key": "claimsAmount",
         "label": "理赔费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "claimsAmount",
@@ -633,7 +633,7 @@
     {
         "key": "claimsPercent",
         "label": "理赔比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "claimsPercent",
@@ -643,7 +643,7 @@
     {
         "key": "taxAmount",
         "label": "税金",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "taxAmount",
@@ -653,7 +653,7 @@
     {
         "key": "taxPercent",
         "label": "税金比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "taxPercent",
@@ -663,7 +663,7 @@
     {
         "key": "siteAmount",
         "label": "场地费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "siteAmount",
@@ -673,7 +673,7 @@
     {
         "key": "siteAmountPercent",
         "label": "场地比%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "siteAmountPercent",
