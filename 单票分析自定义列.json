@@ -89,7 +89,7 @@
     {
         "key": "actualWeight",
         "label": "实际重量",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "actualWeight",
@@ -99,7 +99,7 @@
     {
         "key": "freightWeight",
         "label": "计费重量",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "freightWeight",
@@ -119,7 +119,7 @@
     {
         "key": "freightAmount",
         "label": "运单运费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "freightAmount",
@@ -129,7 +129,7 @@
     {
         "key": "normalFreightAmount",
         "label": "标准运费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "normalFreightAmount",
@@ -139,7 +139,7 @@
     {
         "key": "totalFreightAmount",
         "label": "总运费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "totalFreightAmount",
@@ -149,7 +149,7 @@
     {
         "key": "discountFreight",
         "label": "折后运费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "discountFreight",
@@ -159,7 +159,7 @@
     {
         "key": "variableDiscounts",
         "label": "变量折扣",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "variableDiscounts",
@@ -169,7 +169,7 @@
     {
         "key": "supportOperationCost",
         "label": "扶后成本",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "supportOperationCost",
@@ -179,7 +179,7 @@
     {
         "key": "grossProfit",
         "label": "毛利润",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "grossProfit",
@@ -189,7 +189,7 @@
     {
         "key": "grossProfitPercentage",
         "label": "毛利比率%",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "grossProfitPercentage",
@@ -199,7 +199,7 @@
     {
         "key": "pickLineAmount",
         "label": "取干费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "pickLineAmount",
@@ -209,7 +209,7 @@
     {
         "key": "pickupAmount",
         "label": "取货费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "pickupAmount",
@@ -219,7 +219,7 @@
     {
         "key": "flyAmount",
         "label": "空运费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "flyAmount",
@@ -229,7 +229,7 @@
     {
         "key": "deliveryAmount",
         "label": "派送费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "deliveryAmount",
@@ -239,7 +239,7 @@
     {
         "key": "deliveryLineAmount",
         "label": "派干费",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "deliveryLineAmount",
@@ -259,7 +259,7 @@
     {
         "key": "shipingAreaCode",
         "label": "寄件区号",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "shipingAreaCode",
@@ -269,7 +269,7 @@
     {
         "key": "receiveAreaCode",
         "label": "收件区号",
-        "width": 100,
+        "width": 70,
         "show": true,
         "sortKeys": [
             "receiveAreaCode",
