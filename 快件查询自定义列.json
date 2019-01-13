@@ -1,0 +1,356 @@
+[{
+        "key": "esWaybill.waybillNumber",
+        "label": "运单号",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillGoods.pickupTime",
+        "label": "寄件时间",
+        "width": 130,
+        "show": true,
+        "sortKeys": [
+            "esWaybill.waybillGoods.pickupTime",
+            "esWaybill.waybillGoods.pickupTime"
+        ],
+        "filter": "time"
+    },
+    {
+        "key": "esWaybill.serviceMode",
+        "label": "服务方式",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "esWaybill.serviceMode",
+            "esWaybill.serviceMode"
+        ],
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "common_service_type"
+            ]
+        }
+    },
+    {
+        "key": "follow.receiveDate",
+        "label": "签收时间",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "follow.receiveDate",
+            "follow.receiveDate"
+        ],
+        "filter": "time"
+    },
+    {
+        "key": "esWaybill.waybillDelivery.customerName",
+        "label": "寄件公司",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillDelivery.customerName.raw",
+            "esWaybill.waybillDelivery.customerName.raw"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillPickup.customerName",
+        "label": " 收件公司",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillPickup.customerName.raw",
+            "esWaybill.waybillPickup.customerName.raw"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillPickup.address",
+        "label": "收件地址",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillPickup.address.raw",
+            "esWaybill.waybillPickup.address.raw"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillDelivery.address",
+        "label": "寄件地址",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillDelivery.address.raw",
+            "esWaybill.waybillDelivery.address.raw"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillPickup.phone",
+        "label": "收件电话",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillPickup.phone",
+            "esWaybill.waybillPickup.phone"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillDelivery.phone",
+        "label": "寄件电话",
+        "sortKeys": [
+            "esWaybill.waybillDelivery.phone",
+            "esWaybill.waybillDelivery.phone"
+        ],
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillFinance.customerPayMode",
+        "label": "付款方式",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "esWaybill.waybillFinance.customerPayMode",
+            "esWaybill.waybillFinance.customerPayMode"
+        ],
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "crm_finance_pay_mode"
+            ]
+        }
+    },
+    {
+        "key": "esWaybill.waybillFinance.paymentCustomer",
+        "label": "付款公司",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillFinance.paymentCustomer.raw",
+            "esWaybill.waybillFinance.paymentCustomer.raw"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillGoods.count",
+        "label": "件数",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillGoods.count",
+            "esWaybill.waybillGoods.count"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillFinance.actualWeight",
+        "label": "实际重量",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillFinance.actualWeight",
+            "esWaybill.waybillFinance.actualWeight"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillFinance.freightWeight",
+        "label": "计费重量",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillFinance.freightWeight",
+            "esWaybill.waybillFinance.freightWeight"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillFinance.freightReference",
+        "label": "运费参考值",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillFinance.insuranceValue",
+        "label": "声明价值",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillFinance.totalFreightAmount",
+        "label": "总运费",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillFinance.totalFreightAmount",
+            "esWaybill.waybillFinance.totalFreightAmount"
+        ],
+        "show": true
+    },
+    {
+        "key": "analysis.averagePrice",
+        "label": "均价",
+        "width": 100,
+        "sortKeys": [
+            "analysis.averagePrice",
+            "analysis.averagePrice"
+        ],
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillGoods.goodsType",
+        "label": "托寄物",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillPickup.addWorkday",
+        "label": "加工作日",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillPickup.addWorkday",
+            "esWaybill.waybillPickup.addWorkday"
+        ],
+        "show": true
+    },
+    {
+        "key": "follow.preOrderFlag",
+        "label": "预约单",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "follow.preOrderFlag",
+            "follow.preOrderFlag"
+        ],
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "crm_has_no"
+            ]
+        }
+    },
+    {
+        "key": "esWaybill.waybillGoods.productCode",
+        "label": "产品编码",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillGoods.productCode",
+            "esWaybill.waybillGoods.productCode"
+        ],
+        "show": true
+    },
+    {
+        "key": "follow.customerDeliveryDate",
+        "label": "紧急状态",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "follow.customerDeliveryDate",
+            "follow.customerDeliveryDate"
+        ],
+        "filter": "time"
+    },
+    {
+        "key": "esWaybill.waybillGoods.receiptFlag",
+        "label": "有无回单",
+        "width": 100,
+        "sortKeys": [
+            "esWaybill.waybillGoods.receiptFlag",
+            "esWaybill.waybillGoods.receiptFlag"
+        ],
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "crm_has_no"
+            ]
+        }
+    },
+    {
+        "key": "follow.collectGoodsStatus",
+        "label": "收货状态",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "follow.collectGoodsStatus",
+            "follow.collectGoodsStatus"
+        ],
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "tms_follow_collect_goods_status"
+            ]
+        }
+    },
+    {
+        "key": "esWaybill.waybillMarket.marketName",
+        "label": "销售经理",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillMarket.assistantName",
+        "label": "销售助理",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillMarket.seniorManagerName",
+        "label": "高级总监",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillMarket.calculationName",
+        "label": "销售总监",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillMarket.helpName",
+        "label": "协助经理",
+        "width": 100,
+        "show": true
+    },
+    {
+        "key": "esWaybill.waybillSource",
+        "label": "单据来源",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "esWaybill.waybillSource",
+            "esWaybill.waybillSource"
+        ],
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "oms_waybill_source"
+            ]
+        }
+    },
+    {
+        "key": "esWaybill.receivedFlag",
+        "label": "有无签收",
+        "width": 100,
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "common_yes_no"
+            ],
+            "sortKeys": [
+                "esWaybill.receivedFlag",
+                "esWaybill.receivedFlag"
+            ]
+        }
+    },
+    {
+        "key": "esWaybill.waybillDelivery.temporaryAdddressFlag",
+        "label": "是否临时寄件地址",
+        "width": 100,
+        "show": true,
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "common_yes_no"
+            ],
+            "sortKeys": [
+                "esWaybill.waybillDelivery.temporaryAdddressFlag",
+                "esWaybill.waybillDelivery.temporaryAdddressFlag"
+            ]
+        }
+    }
+]
