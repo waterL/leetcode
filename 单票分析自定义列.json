@@ -59,7 +59,7 @@
     {
         "key": "unitCount",
         "label": "件数",
-        "width": 100,
+        "width": 65,
         "show": true,
         "sortKeys": [
             "unitCount",
@@ -69,7 +69,7 @@
     {
         "key": "cubeCount",
         "label": "方数",
-        "width": 100,
+        "width": 65,
         "show": true,
         "sortKeys": [
             "cubeCount",
@@ -79,7 +79,7 @@
     {
         "key": "beginWeight",
         "label": "起重",
-        "width": 100,
+        "width": 65,
         "show": true,
         "sortKeys": [
             "beginWeight",
@@ -109,7 +109,7 @@
     {
         "key": "averagePrice",
         "label": "均价",
-        "width": 100,
+        "width": 65,
         "show": true,
         "sortKeys": [
             "averagePrice",
