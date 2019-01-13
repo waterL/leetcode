@@ -105,7 +105,7 @@
     {
         "key": "esWaybill.waybillFinance.customerPayMode",
         "label": "付款方式",
-        "width": 100,
+        "width": 90,
         "show": true,
         "sortKeys": [
             "esWaybill.waybillFinance.customerPayMode",
@@ -131,7 +131,7 @@
     {
         "key": "esWaybill.waybillGoods.count",
         "label": "件数",
-        "width": 100,
+        "width": 90,
         "sortKeys": [
             "esWaybill.waybillGoods.count",
             "esWaybill.waybillGoods.count"
@@ -141,7 +141,7 @@
     {
         "key": "esWaybill.waybillFinance.actualWeight",
         "label": "实际重量",
-        "width": 100,
+        "width": 90,
         "sortKeys": [
             "esWaybill.waybillFinance.actualWeight",
             "esWaybill.waybillFinance.actualWeight"
@@ -151,7 +151,7 @@
     {
         "key": "esWaybill.waybillFinance.freightWeight",
         "label": "计费重量",
-        "width": 100,
+        "width": 90,
         "sortKeys": [
             "esWaybill.waybillFinance.freightWeight",
             "esWaybill.waybillFinance.freightWeight"
@@ -161,7 +161,7 @@
     {
         "key": "esWaybill.waybillFinance.freightReference",
         "label": "运费参考值",
-        "width": 100,
+        "width": 90,
         "show": true
     },
     {
@@ -173,7 +173,7 @@
     {
         "key": "esWaybill.waybillFinance.totalFreightAmount",
         "label": "总运费",
-        "width": 100,
+        "width": 90,
         "sortKeys": [
             "esWaybill.waybillFinance.totalFreightAmount",
             "esWaybill.waybillFinance.totalFreightAmount"
@@ -183,7 +183,7 @@
     {
         "key": "analysis.averagePrice",
         "label": "均价",
-        "width": 100,
+        "width": 90,
         "sortKeys": [
             "analysis.averagePrice",
             "analysis.averagePrice"
@@ -278,13 +278,13 @@
     {
         "key": "esWaybill.waybillMarket.marketName",
         "label": "销售经理",
-        "width": 100,
+        "width": 90,
         "show": true
     },
     {
         "key": "esWaybill.waybillMarket.assistantName",
         "label": "销售助理",
-        "width": 100,
+        "width": 90,
         "show": true
     },
     {
