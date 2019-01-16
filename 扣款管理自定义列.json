@@ -1,7 +1,7 @@
 [{
         "key": "deductionCode",
         "label": "扣款编码",
-        "width": 100,
+        "width": 120,
         "show": true,
         "sortKeys": [
             "deductionCode",
@@ -47,7 +47,7 @@
     {
         "key": "deductAmount",
         "label": "扣款金额",
-        "width": 72,
+        "width": 80,
         "show": true,
         "filter": "money",
         "sortKeys": [
@@ -58,7 +58,7 @@
     {
         "key": "sourceType",
         "label": "扣款来源",
-        "width": 100,
+        "width": 80,
         "show": true,
         "sortKeys": [
             "sourceType",
