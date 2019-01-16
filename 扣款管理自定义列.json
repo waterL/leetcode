@@ -1,0 +1,85 @@
+[{
+        "key": "deductionCode",
+        "label": "扣款编码",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deductionCode",
+            "deduction_code"
+        ]
+    },
+    {
+        "key": "deductionerName",
+        "label": "扣款人",
+        "width": 84,
+        "show": true,
+        "sortKeys": [
+            "deductioner_name",
+            "deductioner_name"
+        ]
+    },
+    {
+        "key": "deductionerDepartmentName",
+        "label": "扣款人部门",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "deductionerDepartmentName",
+            "deductioner_department_name"
+        ]
+    },
+    {
+        "key": "region",
+        "label": "扣款区域",
+        "width": 72,
+        "show": true,
+        "sortKeys": [
+            "region",
+            "region"
+        ],
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "crm_region"
+            ]
+        }
+    },
+    {
+        "key": "deductAmount",
+        "label": "扣款金额",
+        "width": 72,
+        "show": true,
+        "filter": "money",
+        "sortKeys": [
+            "deductAmount",
+            "deduct_amount"
+        ]
+    },
+    {
+        "key": "sourceType",
+        "label": "扣款来源",
+        "width": 100,
+        "show": true,
+        "sortKeys": [
+            "sourceType",
+            "source_type"
+        ],
+        "filter": {
+            "type": "lookup",
+            "args": [
+                "crm_deduct_source_type"
+            ]
+        }
+    },
+    {
+        "key": "creationDate",
+        "label": "扣款时间",
+        "width": 114,
+        "show": true,
+        "filter": "time",
+        "sortKeys": [
+            "creationDate",
+            "creation_date"
+        ]
+    }
+]
