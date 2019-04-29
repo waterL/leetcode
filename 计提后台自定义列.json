@@ -1,0 +1,112 @@
+[{
+        "key": "marketName",
+        "show": true,
+        "width": "80px",
+        "label": "姓名"
+    },
+    {
+        "key": "developTime",
+        "show": true,
+        "filter": "date",
+        "width": "80px",
+        "label": "开发日期"
+    },
+    {
+        "key": "seniorManagerName",
+        "width": "80px",
+        "show": true,
+        "label": "销售高监"
+    },
+    {
+        "key": "seniorManagerPercentage",
+        "show": true,
+        "width": "90px",
+        "sortType": "number",
+        "label": "高级总监计提"
+    },
+    {
+        "key": "seniorManagerTime",
+        "show": true,
+        "filter": "date",
+        "width": "90px",
+        "label": "高监执行日期"
+    },
+    {
+        "key": "calculationName",
+        "show": true,
+        "width": "80px",
+        "label": "销售总监"
+    },
+    {
+        "key": "calculationPercentage",
+        "show": true,
+        "sortType": "number",
+        "width": "70px",
+        "label": "总监计提"
+    },
+    {
+        "key": "calculationTime",
+        "show": true,
+        "filter": "date",
+        "width": "90px",
+        "label": "总监执行日期"
+    },
+    {
+        "key": "marketDepartmentName",
+        "show": true,
+        "width": "80px",
+        "label": "部门"
+    },
+    {
+        "key": "helpName",
+        "show": true,
+        "width": "80px",
+        "label": "助理长"
+    },
+    {
+        "key": "helpPercentage",
+        "show": true,
+        "width": "80px",
+        "sortType": "number",
+        "label": "助理长计提"
+    },
+    {
+        "key": "position",
+        "show": true,
+        "width": "80px",
+        "label": "工作职务"
+    },
+    {
+        "key": "leaveOfficeTime",
+        "show": true,
+        "filter": "date",
+        "width": "70px",
+        "label": "离职日期"
+    },
+    {
+        "key": "recorderName",
+        "show": true,
+        "width": "70px",
+        "label": "录入人员"
+    },
+    {
+        "key": "recorderTime",
+        "show": true,
+        "filter": "time",
+        "width": "113px",
+        "label": "录入时间"
+    },
+    {
+        "key": "modifyName",
+        "show": true,
+        "width": "80px",
+        "label": "最后修改人"
+    },
+    {
+        "key": "modifyTime",
+        "show": true,
+        "filter": "time",
+        "width": "113px",
+        "label": "最后修改时间"
+    }
+]
